@@ -1,1 +1,45 @@
 
+{
+  "policies": [
+    {
+      "title": "Code of Conduct",
+      "description": "All employees are expected to adhere to the highest standards of ethical behavior and integrity. This includes treating colleagues with respect, maintaining a professional demeanor, and avoiding conflicts of interest."
+    },
+    {
+      "title": "Attendance Policy",
+      "description": "Employees are expected to be punctual and maintain regular attendance. Absences should be reported to the supervisor as soon as possible. Excessive tardiness or absences may result in disciplinary action."
+    },
+    {
+      "title": "Leave Policy",
+      "description": "Employees are entitled to paid and unpaid leave as per the company guidelines. This includes annual leave, sick leave, maternity/paternity leave, and other statutory leaves. Leave requests should be submitted in advance and approved by the supervisor."
+    },
+    {
+      "title": "Remote Work Policy",
+      "description": "The company supports flexible work arrangements, including remote work. Employees working remotely are expected to maintain productivity, be available during work hours, and stay connected with their teams."
+    },
+    {
+      "title": "Data Protection Policy",
+      "description": "The company is committed to protecting the privacy and security of employee and client data. Employees must comply with data protection regulations and company procedures for handling, storing, and sharing personal data."
+    },
+    {
+      "title": "Equal Opportunity Policy",
+      "description": "The company is committed to providing equal employment opportunities to all employees and applicants without regard to race, color, religion, gender, sexual orientation, national origin, age, disability, or any other protected characteristic."
+    },
+    {
+      "title": "Health and Safety Policy",
+      "description": "The company is committed to providing a safe and healthy work environment. Employees are required to follow safety protocols, report hazards, and contribute to maintaining a safe workplace."
+    },
+    {
+      "title": "Disciplinary Policy",
+      "description": "The company has established procedures for addressing misconduct, poor performance, and violations of company policies. Disciplinary actions may include verbal warnings, written warnings, suspension, or termination, depending on the severity of the issue."
+    },
+    {
+      "title": "Grievance Policy",
+      "description": "Employees are encouraged to raise any work-related concerns or grievances with their supervisor or HR. The company is committed to addressing grievances fairly and promptly."
+    },
+    {
+      "title": "Confidentiality Policy",
+      "description": "Employees must protect the confidentiality of sensitive company information. Unauthorized disclosure of confidential information is prohibited and may result in disciplinary action."
+    }
+  ]
+}
