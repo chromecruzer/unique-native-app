@@ -1,5 +1,5 @@
 // Packages
-import http from 'http'
+//import http from 'http'
 import express from 'express'
 import compression from 'compression'
 import cors from 'cors'
@@ -107,30 +107,30 @@ app.get('/data/:filename', async (req, res) => {
 // Daemon
 
 // Create HTTP server
-const server = http.createServer(app);
+//const server = http.createServer(app);
 
-server.listen(port, host, () => {
+app.listen(port, host, () => {
     console.log(`server is running at http://${host}:${port}`.bgGreen.bgWhite)
 })
 
 // Graceful shutdown handling (os - pid)
-const gracefulShutdown = () => {
-    console.log('Received shutdown signal. Closing server gracefully...');
+// const gracefulShutdown = () => {
+//     console.log('Received shutdown signal. Closing server gracefully...');
 
-    server.close((err) => {
-        if (err) {
-            console.error('Error during server shutdown:', err);
-            process.exit(1);
-        }
+//     server.close((err) => {
+//         if (err) {
+//             console.error('Error during server shutdown:', err);
+//             process.exit(1);
+//         }
 
-        console.log('Server closed.');
-        process.exit(0);
-    });
+//         console.log('Server closed.');
+//         process.exit(0);
+//     });
 
-    // If there are ongoing requests, you may want to implement additional logic here
-    // to wait for them to complete before shutting down.
-};
+//     // If there are ongoing requests, you may want to implement additional logic here
+//     // to wait for them to complete before shutting down.
+// };
 
 // Listen for shutdown signals
-process.on('SIGTERM', gracefulShutdown);
-process.on('SIGINT', gracefulShutdown);
+// process.on('SIGTERM', gracefulShutdown);
+// process.on('SIGINT', gracefulShutdown);
