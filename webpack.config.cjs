@@ -17,7 +17,7 @@ module.exports = {
   entry: './app.js', // Adjust the path if app.js is in a different directory
   output: {
     filename: 'bundle.js',
-    path: path.resolve(__dirname, 'PRODUCTION'),
+    path: path.resolve(__dirname, 'Production'),
   },
   target: 'node', // Since this is for a server application
   devtool: 'source-map',
