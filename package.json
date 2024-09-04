@@ -1,0 +1,35 @@
+{
+  "name": "unique-api",
+  "module": "app.js",
+  "type": "module",
+  "scripts": {
+    "dev": "bun --inspect --hot app.js",
+    "start": "bun --smol ./Production/bundle.js",
+    "start-node": "node ./Production/bundle.js",
+    "build": "bun x webpack",
+    "bun-build": "bun build ./app.js --outdir ./build"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.25.4",
+    "@types/bun": "latest",
+    "babel-loader": "^9.1.3",
+    "dotenv": "^16.4.5",
+    "terser-webpack-plugin": "^5.3.10",
+    "webpack-cli": "^5.1.4"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "ajv": "^8.17.1",
+    "ajv-keywords": "^5.1.0",
+    "colors": "^1.4.0",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "helmet": "^7.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "morgan": "^1.10.0",
+    "node-fetch": "^3.3.2"
+  }
+}
