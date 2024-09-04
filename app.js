@@ -26,7 +26,7 @@ app.use(express.urlencoded({ extended: true }))
 
 
 // API Routes
-app.get('/', async (req, res) => {
+app.get('/healthz', async (req, res) => {
     res.status(200).json({
         msg: `***Unique Force server is Healthy ${today.getDate()}/${today.getMonth() + 1}/${today.getFullYear()} ***`,
         contact: 'shayam.m.uniqueforce.in'
