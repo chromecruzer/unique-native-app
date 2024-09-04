@@ -1,0 +1,34 @@
+{
+  "companyName": "Unique Force Ltd.",
+  "founded": "2020",
+  "mission": "To revolutionize the tech industry with innovative solutions.",
+  "vision": "Empowering individuals and businesses worldwide through cutting-edge technology.",
+  "values": [
+    "Innovation",
+    "Integrity",
+    "Customer Satisfaction",
+    "Excellence"
+  ],
+  "team": [
+    {
+      "name": "John Doe",
+      "role": "CEO",
+      "bio": "John has over 20 years of experience in the tech industry and is passionate about driving innovation."
+    },
+    {
+      "name": "Jane Smith",
+      "role": "CTO",
+      "bio": "Jane leads our technology team, ensuring that we stay ahead of the curve with the latest advancements."
+    },
+    {
+      "name": "Samuel Green",
+      "role": "Head of Marketing",
+      "bio": "Samuel is responsible for our global marketing strategy, bringing our brand to life."
+    }
+  ],
+  "contactInfo": {
+    "email": "info@uniqueforce.in",
+    "phone": "+1-234-567-890",
+    "address": "123 Tech Street, Silicon Valley, CA"
+  }
+}
