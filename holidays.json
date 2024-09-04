@@ -1,0 +1,35 @@
+{
+  "year": 2024,
+  "holidays": [
+    {
+      "date": "2024-01-01",
+      "name": "New Year's Day",
+      "description": "Celebration of the first day of the Gregorian calendar year."
+    },
+    {
+      "date": "2024-03-25",
+      "name": "Good Friday",
+      "description": "Commemoration of the crucifixion of Jesus Christ."
+    },
+    {
+      "date": "2024-04-01",
+      "name": "Easter Monday",
+      "description": "Celebration following Easter Sunday."
+    },
+    {
+      "date": "2024-07-04",
+      "name": "Independence Day",
+      "description": "Celebration of the Declaration of Independence of the United States."
+    },
+    {
+      "date": "2024-11-28",
+      "name": "Thanksgiving Day",
+      "description": "A day of giving thanks for the harvest and the preceding year."
+    },
+    {
+      "date": "2024-12-25",
+      "name": "Christmas Day",
+      "description": "Celebration of the birth of Jesus Christ."
+    }
+  ]
+}
