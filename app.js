@@ -109,7 +109,7 @@ app.get('/data/:filename', async (req, res) => {
 // Create HTTP server
 //const server = http.createServer(app);
 
-app.listen(port, host, () => {
+app.listen(port, () => {
     console.log(`server is running at http://${host}:${port}`.bgGreen.bgWhite)
 })
 
