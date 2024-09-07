@@ -56,7 +56,7 @@ app.get('/healthz', /*#__PURE__*/function () {
         case 0:
           res.status(200).json({
             msg: "***Unique Force server is Healthy ".concat(today.getDate(), "/").concat(today.getMonth() + 1, "/").concat(today.getFullYear(), " ***"),
-            contact: 'shayam.m.uniqueforce.in'
+            contact: 'shayam.m@uniqueforce.in'
           });
         case 1:
         case "end":
