@@ -1,7 +1,7 @@
 {
   "companyName": "Unique Force Ltd.",
   "founded": "2020",
-  "mission": "To revolutionize the tech industry with innovative solutions.",
+  "mission": "Unique Force provides you with Bank trade finance services for all kinds of enterprises with multiple products for imports, exports & domestic trade. Also, we provide Trade finance front end & Back end Services.",
   "vision": "Empowering individuals and businesses worldwide through cutting-edge technology.",
   "values": [
     "Innovation",
@@ -11,24 +11,14 @@
   ],
   "team": [
     {
-      "name": "John Doe",
+      "name": "Chandra Shekar",
       "role": "CEO",
-      "bio": "John has over 20 years of experience in the tech industry and is passionate about driving innovation."
+      "bio": "Over 30 years of experience in the tech industry and is passionate about driving innovation."
     },
-    {
-      "name": "Jane Smith",
-      "role": "CTO",
-      "bio": "Jane leads our technology team, ensuring that we stay ahead of the curve with the latest advancements."
-    },
-    {
-      "name": "Samuel Green",
-      "role": "Head of Marketing",
-      "bio": "Samuel is responsible for our global marketing strategy, bringing our brand to life."
-    }
   ],
   "contactInfo": {
-    "email": "info@uniqueforce.in",
-    "phone": "+1-234-567-890",
-    "address": "123 Tech Street, Silicon Valley, CA"
+    "email": "sales@uniqueforce.in,
+    "phone": "+91 044-28155300",
+    "address": "2nd Floor, GR Mansion, 4/11 Srinivasa Road, T.Nagar, Chennai-600 017 Tamilnadu."
   }
 }
